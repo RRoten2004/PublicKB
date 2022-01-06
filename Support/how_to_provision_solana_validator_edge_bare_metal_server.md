@@ -1,6 +1,6 @@
 {{{
   "title": "How to Provision a Solana Validator/RPC Edge Bare Metal Server",
-  "date": "11-04-2021",
+  "date": "01-05-2022",
   "author": "Brandy Smith",
   "attachments": [],
   "contentIsHTML": false,
@@ -72,10 +72,9 @@ To start the Provision Server process, use the top navigation and choose **Provi
 4. Instance Summary: in this section, you will see multiple fields. 
     ![Instance Summary](../images/Solana-Validator_grphx/004_Solana-V_Instance-Summary.png)
     Below outlines the purpose of each field in the image above.
-
     **Group**
     - Required field, pre-populated, no cost.
-    Currently, the only Group option available, "Lumen Administration", and is pre-populated for you.
+    Currently, the only Group option available, "Lumen Edge Computing Solutions", is pre-populated for you.
     As the platform evolves, customers will have more Group options to choose from.
 
     **Name**
@@ -92,8 +91,7 @@ To start the Provision Server process, use the top navigation and choose **Provi
     **Label**
     - Required field, free text, no cost.
     Customers can add labels to the servers as they see fit.
-    Labels just provide another way for customers to manage, report, or group servers.
- 
+    Labels just provide another way for customers to manage, report, or group servers. 
 5. Configuration Options
     In this section, you will see multiple fields. Once you have made selections for all the required fields, please review each for accuracy, and press the **NEXT** button to proceed to the next steps.
     Please note, there are some prerequisites and actions users must take for some fields below. Please read this section carefully before moving on to Step 7.
@@ -126,8 +124,7 @@ To start the Provision Server process, use the top navigation and choose **Provi
     **Plan**
     - Required field. Select the approved server configuration under the plan drop down field. The approved server configuration and plan for Solana validators/RPC is listed below.
     **Cores: 32 RAM (GB): 256 Storage (GB): 2400** 
-    ![Configuration Options](../images/Solana-Validator_grphx/006_Solana-V_approved-server-configuration.png)
-
+   
     **Volumes**
     - Required field, pre-populated, not editable. 
     This field shows the storage volumes for the related Server Plan selected. 
@@ -139,25 +136,35 @@ To start the Provision Server process, use the top navigation and choose **Provi
 
     **If you choose a location outside of the list below, the server will fail to provision.** 
  
-    - Austin,TX
-    - Cambridge,MA
-    - Denver,CO
-    - Detroit,MI 
-    - Jacksonville,FL
-    - Herndon,VA
-    - Kansas City,MO
-    - Las Vegas,NV
-    - Minnetonka,MIN
-    - Nashville,TN
-    - Phoenix,AZ
-    - Pittsburgh,PA
-    - Portland,OR
-    - Salt Lake City,UT
-    - Spokane,WA
-    - St.Louis,MO
-    - Tampa,FL
-    - Tustin,CA
-    - San Diego,CA
+    - Austin, TX
+    - Boise, ID
+    - Cambridge, MA
+    - Charlotte, NC
+    - Cincinnati, OH
+    - Denver, CO
+    - Detroit, MI 
+    - Herndon, VA
+    - Jacksonville, FL
+    - Herndon, VA
+    - Kansas City, MO
+    - Las Vegas, NV
+    - Little Rock, AK
+    - Metairie, LA
+    - Minnetonka, MN
+    - Nashville, TN
+    - Omaha, NE
+    - Philadelphia, PA
+    - Phoenix, AZ
+    - Pittsburgh, PA
+    - Portland, OR
+    - Sacramento, CA
+    - Salt Lake City, UT
+    - San Antonio, TX
+    - San Diego, CA
+    - Spokane, WA
+    - St.Louis, MO
+    - Tampa, FL
+    - Tustin, CA
 
  
     **Network Type**
@@ -211,4 +218,4 @@ On average, server configurations take up to 30 minutes to build.
 
 After the server is built, billing starts. You can manage your Edge Bare Metal Server by going to your Dashboard section and finding the server under the **MY INSTANCES** section of the dashboard.
 
-To learn more about how to manage your Bare Metal servers, please visit this [Knowledge Base article](../Getting Started/managing-bare-metal-instances).
+To learn more about how to manage your Bare Metal servers, please visit this [Knowledge Base article](https://www.lumen.com/help/en-us/edge-bare-metal.html).
