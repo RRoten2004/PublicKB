@@ -1,6 +1,6 @@
 {{{
   "title": "How to Provision a Solana Validator/RPC Edge Bare Metal Server",
-  "date": "11-04-2021",
+  "date": "11-05-2021",
   "author": "Brandy Smith",
   "attachments": [],
   "contentIsHTML": false,
